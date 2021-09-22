@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+
+    <Button
+        android:id="@+id/button_a"
+        android:textAllCaps="false"
+        android:text="La la la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--<com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:drawableLeft="@drawable/ic_happy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Username"
+            android:inputType="text"
+            android:fontFamily="cursive"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_margin="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:fontFamily="cursive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+-->
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/floating1"
+    android:src="@drawable/add_reaction"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>-->
+    <!--    <ToggleButton
+        android:textAllCaps="false"
+        android:textOn="Novchin bosasan"
+        android:textOff="Na gap ?"
+        android:textSize="30sp"
+        android:id="@+id/toogle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />-->
+
+    <!--<Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    -->
+
+
+    <!--
+<RadioGroup
+    android:id="@+id/radio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:text="Test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:text="Test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RadioGroup>
+-->
+    <!--
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:text="Ayol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:text="Erkak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+-->
+
+</LinearLayout>

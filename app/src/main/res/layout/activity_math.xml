@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MathActivity">
+
+    <TextView
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/amal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/tenglik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="||"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        />
+
+</LinearLayout>

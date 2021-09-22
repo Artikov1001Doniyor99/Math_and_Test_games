@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "4_modul_4_dars_qayta"
